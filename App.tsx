@@ -1,17 +1,34 @@
 import React, { useState } from 'react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { Section } from './components/Section';
-import { Button } from './components/Button';
-import { DownloadTable } from './components/DownloadTable';
-import { FireBackground } from './components/FireBackground';
-import { HeroHUD } from './components/HeroHUD';
-import { ScrollReveal } from './components/ScrollReveal';
-import { TableOfContents } from './components/TableOfContents';
-import { FAQAccordion } from './components/FAQAccordion';
-import { ShareModal } from './components/ShareModal';
+
+import { Header } from './Header';
+import { Footer } from './Footer';
+import { Section } from './Section';
+import { Button } from './Button';
+import { DownloadTable } from './DownloadTable';
+import { FireBackground } from './FireBackground';
+import { HeroHUD } from './HeroHUD';
+import { ScrollReveal } from './ScrollReveal';
+import { TableOfContents } from './TableOfContents';
+import { FAQAccordion } from './FAQAccordion';
+import { ShareModal } from './ShareModal';
+
 import { FEATURES, INSTALL_STEPS, FAQS } from './constants';
-import { Download, ChevronRight, HelpCircle, CheckCircle, XCircle, AlertTriangle, Trophy, Zap, Target, Star, Gift, User, Share2 } from 'lucide-react';
+
+import {
+  Download,
+  ChevronRight,
+  HelpCircle,
+  CheckCircle,
+  XCircle,
+  AlertTriangle,
+  Trophy,
+  Zap,
+  Target,
+  Star,
+  Gift,
+  User,
+  Share2
+} from 'lucide-react';
 
 function App() {
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
